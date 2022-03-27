@@ -79,6 +79,8 @@ section {
     width: 90%;
     display: inline-block;
     margin: 20px 0 0 20px;
+    display: flex;
+    flex-wrap: flex;
 }
 
   section li {
@@ -107,13 +109,60 @@ footer {
 h3 {
 text-align: left;
 position: relative;
-height: 800px;
 width: 100%;
 color: rgb(255, 255, 255);
 font-size: 50px;
 border: solid rgb(255, 255, 255) 8px;
 border-radius: 8px;
 background-color: rgb(72, 146, 216); 
+}
 
+.list-of-work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 85%;
+    padding: 1% 0 0 1%;
+}
+
+.pictures {
+    width: 100%;
+    opacity: 0.5;
 
 }
+
+.pictures:hover {
+    opacity: 1.0;
+}
+
+.top {
+    width: 99%;
+    height: 100%;
+}
+
+
+.small-pic {
+    width: 50%;
+    padding-top: 10px; 
+    padding-right: 10px;
+}
+
+.Code {
+    height: 95%;
+}
+
+.bottom-left {
+    position: relative;
+    bottom: 40px;
+    left: 16px;
+    color: aqua;
+}
+.centered {
+    position: relative;
+    top: -500px;
+    left: 39%;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-weight: 900;
+      
+  }
