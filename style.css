@@ -54,12 +54,12 @@ figure {
 }
 figure p {
     text-align: center;
-    position:sticky;
-    top: 80%;
-    left: 50%;
+    position:absolute;
+    bottom: 10px;
+    left: 15px;
     /* transform: translate(-50%, -50%); */
     color: rgb(83, 16, 16);
-    font-size: 50px;
+    font-size: 40px;
     border: solid grey 1px;
     border-radius: 8px;
     background-color: #8b92a7; 
@@ -84,7 +84,7 @@ section {
     background-color: rgb(109, 144, 177);
     width: 90%;
     display: inline-block;
-    margin: 20px 0 0 20px;
+    margin: 20px auto 20px auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -107,6 +107,9 @@ section p {
     display: flex;
     flex-direction: row;
 } 
+.About-Me {
+    display: flex;
+}
 
 footer {
     padding: 30px;
@@ -198,5 +201,10 @@ footer nav {
     font-size: 10px;
     padding-left: 10px;
  }   
+figure p {
+    bottom: 10px;
+    left: 15px;
+    font-size: 25px;
+}
 
 }
